@@ -1,7 +1,7 @@
 site_name: MonsterLifeServer：運営方針リポジトリ
 copyright: '© 2024 MonsterLifeServer'
 theme:
-  name: mkdocs
+  name: material
   custom_dir: overrides
   language: ja
 nav:
