@@ -9,4 +9,4 @@
 ### 運営方針
 現在の運営方針はこちらから確認できます。
 
-+ [配信について](./operation-policy/stream.md)
++ [配信について](operation-policy/stream.md)
