@@ -1,4 +1,4 @@
-name: mainci
+name: ci 
 on:
   push:
     branches:
@@ -9,7 +9,6 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 1
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
@@ -18,7 +17,13 @@ jobs:
           git config user.email 47695021+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.10.6
-          cache: pip
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
