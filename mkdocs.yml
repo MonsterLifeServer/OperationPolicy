@@ -1,19 +1,10 @@
 site_name: MonsterLifeServer：運営方針リポジトリ
+site_url: https://operation-policy.mlserver.xyz/
 copyright: '© 2024 MonsterLifeServer'
 theme:
-  name: material
-  custom_dir: overrides
-  language: ja
+    name: material
+    language: ja
 nav:
-  - Home: 'index.md'
-  - '運営方針':
-    - '1. 配信について': 'operation-policy/stream.md'
-  #   - '2. 防災・医療': 'manifest/care.md'
-  #   - '3. 教育・子育て': 'manifest/education.md'
-  #   - '4. 行政': 'manifest/administration.md'
-  #   - '5. 民主主義': 'manifest/democracy.md'
-  #   - '6. 予算・財源': 'manifest/budget.md'
-  #   - '7. その他': 'manifest/others.md'
-  # - '貢献したいあなたへ': 'contribution.md'
-  # - 'Issueマニュアル': 'manual_issue.md'
-  # - 'Pull Requestマニュアル': 'manual_pull_request.md'
+    - Home: 'index.md'
+    - '運営方針':
+        - '1. 配信について': 'operation-policy/stream.md'
