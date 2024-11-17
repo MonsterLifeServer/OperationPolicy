@@ -1,0 +1,12 @@
+site_name: MonsterLifeServer：運営方針リポジトリ
+site_url: https://operation-policy.mlserver.xyz/
+copyright: '© 2024 MonsterLifeServer'
+repo_url: 'https://github.com/MonsterLifeServer/OperationPolicy/'
+repo_name: 'OperationPolicy'
+theme:
+    name: material
+    language: ja
+nav:
+    - Home: 'index.md'
+    - '運営方針':
+        - '1. 配信について': 'operation-policy/stream.md'
