@@ -18,7 +18,7 @@ jobs:
           git config user.email 47695021+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.10.6
           cache: pip
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
