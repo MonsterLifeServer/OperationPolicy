@@ -1,11 +1,23 @@
 site_name: MonsterLifeServer：運営方針リポジトリ
 site_url: https://operation-policy.mlserver.xyz/
 copyright: '© 2024 MonsterLifeServer'
-repo_url: 'https://github.com/MonsterLifeServer/OperationPolicy/'
 repo_name: 'OperationPolicy'
 theme:
     name: material
     language: ja
+    logo: img/favicon.png
+    palette: 
+        # Palette toggle for light mode
+        - scheme: default
+          toggle:
+            icon: material/brightness-7 
+            name: Switch to dark mode
+    
+        # Palette toggle for dark mode
+        - scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: Switch to light mode
 nav:
     - Home: 'index.md'
     - '運営方針':
