@@ -10,3 +10,4 @@
 現在の運営方針はこちらから確認できます。
 
 + [配信について](operation-policy/stream.md)
++ [運営について](operation-policy/admin.md)
