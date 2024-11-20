@@ -27,7 +27,7 @@ nav:
         - '3. 運営専用グループについて': 'operation-policy/admin-group.md'
         - '4. 鯖について':
             - '1. ゾンビエスケープ鯖について': 'operation-policy/ze-server.md'
-            - '2. サバイバル鯖について': 'operation-policy/ze-server.md'
+            - '2. サバイバル鯖について': 'operation-policy/survival-server.md'
 extra:
     consent:
         title: Cookie設定
