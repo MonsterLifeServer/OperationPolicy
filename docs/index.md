@@ -12,3 +12,6 @@
 + [配信について](operation-policy/stream.md)
 + [運営について](operation-policy/admin.md)
 + [運営専用グループについて](operation-policy/admin-group.md)
++ 鯖について
+    + [ゾンビエスケープ鯖について](operation-policy/ze-server.md)
+    + [サバイバル鯖について](operation-policy/ze-server.md)

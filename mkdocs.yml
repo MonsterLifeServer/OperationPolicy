@@ -25,6 +25,9 @@ nav:
         - '1. 配信について': 'operation-policy/stream.md'
         - '2. 運営について': 'operation-policy/admin.md'
         - '3. 運営専用グループについて': 'operation-policy/admin-group.md'
+        - '4. 鯖について':
+            - '1. ゾンビエスケープ鯖について': 'operation-policy/ze-server.md'
+            - '2. サバイバル鯖について': 'operation-policy/ze-server.md'
 extra:
     consent:
         title: Cookie設定
